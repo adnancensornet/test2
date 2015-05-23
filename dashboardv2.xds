@@ -1,0 +1,54 @@
+{
+    "name": "dashboardv2",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "5.1.1.39",
+            "frameworkVersion": "5.1.0.107"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "http://localhost:1841",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "projectHasEnabledWebServer": true,
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app"
+        }
+    },
+    "xdsVersion": "3.2.0",
+    "xdsBuild": 75,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "ext51",
+    "viewOrderMap": {
+        "view": [
+            "d946392d-8167-4ad7-a343-398fba3a096a",
+            "94a40660-d5fb-41e5-964f-fdc4f6dae48c",
+            "1a4c8ce5-9b46-499c-818e-ed7ccedce0be"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "a6fee209-814e-46fe-8b3b-a5517ea77c28",
+            "69fe75c3-7ce6-4987-9d99-e78e8d3b81e6"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "maincontainerviewport",
+        "designer|userClassName": "main.ContainerViewportViewController"
+    },
+    "designerId": "1a4c8ce5-9b46-499c-818e-ed7ccedce0be",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "e"
+                ],
+                "fn": "onSwitchTool",
+                "implHandler": [
+                    "",
+                    "        if (this.lookupReference('tabbarref').isVisible()!== true){",
+                    "                this.lookupReference('tabbarref').show();",
+                    "        }",
+                    "        else {",
+                    "              this.lookupReference('tabbarref').hide();",
+                    "        }",
+                    ""
+                ]
+            },
+            "name": "onSwitchTool",
+            "designerId": "bec88be9-6743-4541-8fb7-4840b4491ef2"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "e"
+                ],
+                "fn": "onPartnerMenuClick",
+                "implHandler": [
+                    "",
+                    "           var menu = this.menu;",
+                    "",
+                    "                if (!menu) {",
+                    "                    menu = this.getView().assistiveMenu;",
+                    "                    this.menu = menu = new Ext.menu.Menu(menu);",
+                    "                }",
+                    "",
+                    "                menu.showAt(e.getX(), e.getY());",
+                    "  "
+                ]
+            },
+            "name": "onPartnerMenuClick",
+            "designerId": "51030051-479b-4fa2-9320-8f6418458a4d"
+        }
+    ]
+}
